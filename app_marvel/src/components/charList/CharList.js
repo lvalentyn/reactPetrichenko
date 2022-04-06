@@ -12,7 +12,7 @@ const CharList = (props) => {
 
     const [charList, setCharList] = useState([]),
         [newItemLoading, setNewItemLoading] = useState(false),
-        [offset, setOffset] = useState(210),
+        [offset, setOffset] = useState(1000),
         [charEnded, setCharEnded] = useState(false);
 
     const { loading, error, getAllCharacters } = useMarvelService();
